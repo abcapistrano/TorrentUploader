@@ -12,7 +12,12 @@
 		FD6CD05C170EF9140032EE16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CD05B170EF9140032EE16 /* main.m */; };
 		FD6CD060170EF9140032EE16 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD6CD05E170EF9140032EE16 /* Credits.rtf */; };
 		FD6CD063170EF9140032EE16 /* DJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CD062170EF9140032EE16 /* DJAppDelegate.m */; };
-		FD6CD066170EF9140032EE16 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6CD064170EF9140032EE16 /* MainMenu.xib */; };
+		FD6CD070170EF9600032EE16 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CD06D170EF9600032EE16 /* AFHTTPRequestOperation.m */; };
+		FD6CD071170EF9600032EE16 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CD06F170EF9600032EE16 /* AFURLConnectionOperation.m */; };
+		FD6CD074170F05760032EE16 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CD073170F05760032EE16 /* AFHTTPClient.m */; };
+		FD6CD077170F2E1E0032EE16 /* NSURL+FileManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CD076170F2E1E0032EE16 /* NSURL+FileManagement.m */; };
+		FD6CD079170F3B180032EE16 /* YAMLFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6CD078170F3B180032EE16 /* YAMLFramework.framework */; };
+		FD6CD07B170F3F820032EE16 /* Icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = FD6CD07A170F3F820032EE16 /* Icon.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +33,16 @@
 		FD6CD05F170EF9140032EE16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FD6CD061170EF9140032EE16 /* DJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAppDelegate.h; sourceTree = "<group>"; };
 		FD6CD062170EF9140032EE16 /* DJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAppDelegate.m; sourceTree = "<group>"; };
-		FD6CD065170EF9140032EE16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FD6CD06C170EF9600032EE16 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = ../../Headers/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		FD6CD06D170EF9600032EE16 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = ../../Headers/AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		FD6CD06E170EF9600032EE16 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = ../../Headers/AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		FD6CD06F170EF9600032EE16 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = ../../Headers/AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		FD6CD072170F05760032EE16 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = ../../Headers/AFNetworking/AFHTTPClient.h; sourceTree = "<group>"; };
+		FD6CD073170F05760032EE16 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = ../../Headers/AFNetworking/AFHTTPClient.m; sourceTree = "<group>"; };
+		FD6CD075170F2E1E0032EE16 /* NSURL+FileManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+FileManagement.h"; path = "../../Headers/NSURL+FileManagement.h"; sourceTree = "<group>"; };
+		FD6CD076170F2E1E0032EE16 /* NSURL+FileManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+FileManagement.m"; path = "../../Headers/NSURL+FileManagement.m"; sourceTree = "<group>"; };
+		FD6CD078170F3B180032EE16 /* YAMLFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAMLFramework.framework; path = ../../../../../Library/Frameworks/YAMLFramework.framework; sourceTree = "<group>"; };
+		FD6CD07A170F3F820032EE16 /* Icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = Icon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6CD079170F3B180032EE16 /* YAMLFramework.framework in Frameworks */,
 				FD6CD050170EF9140032EE16 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +61,7 @@
 		FD6CD043170EF9140032EE16 = {
 			isa = PBXGroup;
 			children = (
+				FD6CD078170F3B180032EE16 /* YAMLFramework.framework */,
 				FD6CD055170EF9140032EE16 /* TorrentUploader */,
 				FD6CD04E170EF9140032EE16 /* Frameworks */,
 				FD6CD04D170EF9140032EE16 /* Products */,
@@ -82,9 +98,16 @@
 		FD6CD055170EF9140032EE16 /* TorrentUploader */ = {
 			isa = PBXGroup;
 			children = (
+				FD6CD072170F05760032EE16 /* AFHTTPClient.h */,
+				FD6CD073170F05760032EE16 /* AFHTTPClient.m */,
+				FD6CD06C170EF9600032EE16 /* AFHTTPRequestOperation.h */,
+				FD6CD06D170EF9600032EE16 /* AFHTTPRequestOperation.m */,
+				FD6CD06E170EF9600032EE16 /* AFURLConnectionOperation.h */,
+				FD6CD06F170EF9600032EE16 /* AFURLConnectionOperation.m */,
 				FD6CD061170EF9140032EE16 /* DJAppDelegate.h */,
 				FD6CD062170EF9140032EE16 /* DJAppDelegate.m */,
-				FD6CD064170EF9140032EE16 /* MainMenu.xib */,
+				FD6CD075170F2E1E0032EE16 /* NSURL+FileManagement.h */,
+				FD6CD076170F2E1E0032EE16 /* NSURL+FileManagement.m */,
 				FD6CD056170EF9140032EE16 /* Supporting Files */,
 			);
 			path = TorrentUploader;
@@ -93,6 +116,7 @@
 		FD6CD056170EF9140032EE16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD6CD07A170F3F820032EE16 /* Icon.iconset */,
 				FD6CD057170EF9140032EE16 /* TorrentUploader-Info.plist */,
 				FD6CD058170EF9140032EE16 /* InfoPlist.strings */,
 				FD6CD05B170EF9140032EE16 /* main.m */,
@@ -156,7 +180,7 @@
 			files = (
 				FD6CD05A170EF9140032EE16 /* InfoPlist.strings in Resources */,
 				FD6CD060170EF9140032EE16 /* Credits.rtf in Resources */,
-				FD6CD066170EF9140032EE16 /* MainMenu.xib in Resources */,
+				FD6CD07B170F3F820032EE16 /* Icon.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +193,10 @@
 			files = (
 				FD6CD05C170EF9140032EE16 /* main.m in Sources */,
 				FD6CD063170EF9140032EE16 /* DJAppDelegate.m in Sources */,
+				FD6CD070170EF9600032EE16 /* AFHTTPRequestOperation.m in Sources */,
+				FD6CD071170EF9600032EE16 /* AFURLConnectionOperation.m in Sources */,
+				FD6CD074170F05760032EE16 /* AFHTTPClient.m in Sources */,
+				FD6CD077170F2E1E0032EE16 /* NSURL+FileManagement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +217,6 @@
 				FD6CD05F170EF9140032EE16 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		FD6CD064170EF9140032EE16 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD6CD065170EF9140032EE16 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /library/frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TorrentUploader/TorrentUploader-Prefix.pch";
 				INFOPLIST_FILE = "TorrentUploader/TorrentUploader-Info.plist";
@@ -277,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /library/frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TorrentUploader/TorrentUploader-Prefix.pch";
 				INFOPLIST_FILE = "TorrentUploader/TorrentUploader-Info.plist";
@@ -304,6 +326,7 @@
 				FD6CD06B170EF9140032EE16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface DJAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
+@interface DJAppDelegate : NSObject <NSApplicationDelegate, NSUserNotificationCenterDelegate>
 
 @end
